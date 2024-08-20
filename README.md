@@ -1,6 +1,6 @@
-# bun-lib-starter
+# bun-starter
 
-## Find original repo [here](https://github.com/maxam2017/bun-lib-starter)
+## Find original repo [here](https://github.com/ivanoliverfabra/bun-lib-starter)
 
 ![Bun](https://img.shields.io/badge/bun-282a36?style=for-the-badge&logo=bun&logoColor=fbf0df)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -12,9 +12,6 @@ A starter template for node library built with bun.
 
 - 🚀 **Typescript Support**
 - 🧼 **Linting and Formatting with Pre-commit Hooks** (Powered by pre-commit and biomejs)
-- 📦 **Efficient Bundling with tsup** (Supporting both cjs and esm)
-- 🧪 **Inclusive Built-in Test Runner** (Powered by bun)
-- 🌐 **GitHub Actions for CI/CD and Semantic Release Automation**
 
 ## Getting Started
 
@@ -28,15 +25,15 @@ A starter template for node library built with bun.
 Use bun CLI to create a new project **(recommended)**
 
 ```sh
-bun create ivanoliverfabra/bun-lib-starter <your-project-name>
+bun create ivanoliverfabra/bun-starter <your-project-name>
 ```
 
 or clone this repo and install manually
 
 ```sh
-git clone https://github.com/ivanoliverfabra/bun-lib-starter.git
+git clone https://github.com/ivanoliverfabra/bun-starter.git
 
-cd bun-lib-starter
+cd bun-starter
 
 pre-commit install
 
@@ -48,10 +45,6 @@ bun install
 1. Run in dev mode (watch mode)
    ```sh
    bun dev
-   ```
-1. Run tests
-   ```sh
-    bun test
    ```
 
 ## License
