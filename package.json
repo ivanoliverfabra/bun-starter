@@ -1,28 +1,24 @@
 {
-  "name": "clove",
+  "name": "discord-bot",
   "version": "0.0.1",
   "main": "src/index.ts",
-  "description": "Small but powerful Discord bot that supports and nurtures the Bloomlabs community, ensuring everything runs smoothly.",
+  "description": "",
   "scripts": {
     "dev": "bun --watch src/index.ts",
     "start": "bun src/index.ts"
   },
   "keywords": ["bun"],
   "license": "MIT",
-  "homepage": "https://github.com/Bloom-Labs-Tech/clove#readme",
+  "homepage": "https://github.com/ivanoliverfabra/bun-starter#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bloom-Labs-Tech/clove.git"
+    "url": "git+https://github.com/ivanoliverfabra/bun-starter.git"
   },
-  "bugs": "https://github.com/Bloom-Labs-Tech/clove/issues",
+  "bugs": "https://github.com/ivanoliverfabra/bun-starter/issues",
   "author": "Ivan Oliver <ivan@fabra.me>",
   "devDependencies": {
     "@biomejs/biome": "1.4.1",
     "@types/bun": "latest",
     "typescript": "^5.5.4"
-  },
-  "dependencies": {
-    "@sapphire/framework": "^5.2.1",
-    "discord.js": "^14.15.3"
   }
 }
