@@ -1,5 +1,5 @@
 {
-  "name": "discord-bot",
+  "name": "bun-starter",
   "version": "0.0.1",
   "main": "src/index.ts",
   "description": "",
